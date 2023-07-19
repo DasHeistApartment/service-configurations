@@ -2,6 +2,7 @@
   {
     "external": 80,
     "internal": 80,
-    "protocol": "TCP"
+    "protocol": "TCP",
+    "description": "Kubernetes HTTP Server (ACME etc.)"
   }
 ]
