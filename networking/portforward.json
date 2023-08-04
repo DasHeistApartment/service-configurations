@@ -4,5 +4,11 @@
     "internal": 80,
     "protocol": "TCP",
     "description": "Kubernetes HTTP Server (ACME etc.)"
+  },
+  {
+    "external": 443,
+    "internal": 443,
+    "protocol": "TCP",
+    "description": "Kubernetes HTTPS Server"
   }
 ]
