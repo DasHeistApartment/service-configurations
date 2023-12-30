@@ -1,0 +1,16 @@
+name: Update Port Forwardings
+
+on:
+  push:
+    branches: [ "main" ]
+    paths: 'networking/portforward.json'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: [self-hosted]
+
+    steps:
+      - run: curl -kL home.crazypokemondev.de/portforward/update
+      
