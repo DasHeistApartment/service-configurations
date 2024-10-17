@@ -10,5 +10,29 @@
     "internal": 443,
     "protocol": "TCP",
     "description": "Kubernetes HTTPS Server"
+  },
+  {
+    "external": 7777,
+    "internal": 30777,
+    "protocol": "TCP",
+    "description": "ASA Game Server"
+  },
+  {
+    "external": 7777,
+    "internal": 30777,
+    "protocol": "UDP",
+    "description": "ASA Game Server"
+  },
+  {
+    "external": 27015,
+    "internal": 31015,
+    "protocol": "TCP",
+    "description": "ASA Query Port"
+  },
+  {
+    "external": 27015,
+    "internal": 31015,
+    "protocol": "UDP",
+    "description": "ASA Query Port"
   }
 ]
